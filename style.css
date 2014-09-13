@@ -62,9 +62,18 @@ div.section {
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
 
+#plan {
+	background-color: transparent;
+	background-image: url("http://hdwallpapersbase.com/wp-content/uploads/2014/03/2001_a_space_odyssey_wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 /* You can alter the links within a div with the following syntax */
+#plan p, #plan h2 {
+	color: green;
+}
 #plan a {
-	color: #C41E3A;
+	color: blue;
 }
 
 /* This alters the appearance of the div with id="signup". */
